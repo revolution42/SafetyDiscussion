@@ -1,0 +1,17 @@
+﻿.safety-discussion-wrapper
+{
+    margin-top: 80px;
+}
+
+.log-form
+{
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 0.8s;
+}
+
+.log-form.open
+{
+    max-height: 500px;
+
+}
